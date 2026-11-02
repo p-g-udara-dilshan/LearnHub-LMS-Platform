@@ -1,71 +1,64 @@
-# 🎓 LearnHub - Comprehensive Learning Management System (LMS)
+🎓 LearnHub — Learning Management System (LMS)
+A React and TypeScript learning management system prototype focused on modern educational user interfaces.
 
-A feature-rich, production-ready online education platform designed to bridge the gap between educators and learners through a seamless digital experience.
+Project status: Personal development project · June 2025 · Not currently live
+Preview note: The screenshot shows a UI concept; on-screen statistics and ratings are illustrative sample content, not verified platform usage data.
 
-<p align="center">
-  <img src="https://img.shields.io/badge/React%2018-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="React">
-  <img src="https://img.shields.io/badge/TypeScript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript">
-  <img src="https://img.shields.io/badge/Tailwind--CSS-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind">
-  <img src="https://img.shields.io/badge/Vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white" alt="Vite">
-</p>
+📖 Overview
+LearnHub explores the design of a digital learning platform with separate administrator and student experiences. The project is centered on clean interface design, reusable React components, TypeScript, responsive layouts, and common learning-management workflows.
 
----
+It is presented as a development prototype, not as a production deployment.
+✨ Project scope and interface concepts
+The following workflows are described in the project materials. Their end-to-end implementation cannot be independently verified from the currently published repository snapshot.
+👨‍🏫 Administrator experience
+- Course creation, content organization, and course management views
+- Student enrollment management workflows
+- Dashboard and learning-activity overview concepts
+👩‍🎓 Student experience
+- Course discovery, learning materials, and video lesson interfaces
+- Quiz and immediate-feedback workflows
+- Learning-progress visualization
+- Discussion forum and community-interaction concepts
+- Role-oriented navigation and account experiences
+🎨 User interface
+- Responsive layouts for different screen sizes
+- Reusable, component-oriented frontend structure
+- Accessible, consistent page layout and navigation as design goals
+🛠️ Technology stack
+Category	Tools
+UI library	React 18
+Language	TypeScript
+Styling	Tailwind CSS
+Development/build tooling	Vite
+Client-side routing	React Router
+Icons	Lucide React
 
-## 🌟 Project Highlights
 
-LearnHub is built with a scalable architecture, featuring dedicated portals for both administrators and students. It integrates complex features like real-time progress tracking, automated quiz scoring, and role-based access control.
+These technologies are listed in the published package.json. The public snapshot does not show a backend or persistent database implementation.
+📸 Screenshots
+Landing page
 
----
+UI preview from the project. Example ratings, learner counts, and success metrics are placeholder content.
+📂 Repository status
+At the time this README was prepared, the public repository contained project configuration files (including package.json, Vite, Tailwind, and TypeScript configuration) and documentation, but the application src/ directory was not visible. For that reason, a complete working build cannot be verified from the public repository alone.
 
-## ✨ Core Functionalities
+If you have the original application source code, add it to the repository before presenting this as a runnable project. Do not upload secrets, .env credentials, or real user information.
+💻 Run locally (after adding the application source)
+git clone https://github.com/Udara-Dilshan/learnhub-lms-platform.git
+cd learnhub-lms-platform
+npm install
+npm run dev
+These commands describe the Vite setup but may not launch the application until missing frontend source files are included. Check the console output and npm run build after restoring the code.
 
-### 👨‍💼 Admin Ecosystem
-- [cite_start]**Content Orchestration**: Comprehensive tools for course creation, content upload, and organization.
-- [cite_start]**Enrollment Management**: Efficiently track and manage student enrollments.
-- [cite_start]**Analytics Dashboard**: Data-driven insights into platform performance and user engagement.
-
-### 👩‍🎓 Student Experience
-- [cite_start]**Interactive Learning**: Access video lessons, descriptions, and downloadable materials.
-- [cite_start]**Automated Quiz System**: Real-time assessment with instant scoring and feedback.
-- [cite_start]**Progress Monitoring**: Visual indicators of course completion percentages.
-- [cite_start]**Collaborative Hub**: Discussion forums for peer-to-peer and student-teacher interaction.
-
----
-
-## 🛠️ Technical Architecture
-
-- [cite_start]**Frontend:** React 18 with Functional Components & Hooks.
-- [cite_start]**Type Safety:** TypeScript for robust and maintainable code.
-- [cite_start]**State & Logic:** React Context API for authentication and global state management.
-- [cite_start]**Styling:** Utility-first CSS with Tailwind CSS for high-performance UI.
-- [cite_start]**Icons:** Lucide React for a modern visual language.
-
----
-
-## 🚀 Live Demo & Documentation
-
-- [cite_start]🔗 **Live Platform:** [Visit LearnHub](https://deft-phoenix-9d947a.netlify.app/) 
-- [cite_start]🔗 **Project Walkthrough:** [LinkedIn Case Study](https://www.linkedin.com/posts/gamage-udara-dilshan_webdevelopment-react-lms-activity-7344926114613469187-pR9Y) 
-
----
-
-## ⚙️ Quick Start
-
-1. **Clone & Setup:**
-   ```bash
-   git clone [https://github.com/Udara-Dilshan/learnhub-lms-platform.git](https://github.com/Udara-Dilshan/learnhub-lms-platform.git)
-   cd learnhub-lms-platform
-   npm install
-   
-2.**Run Locally:**
-  ```Bash
-  npm run dev
-  ```
-
-3.**Demo Credentials:**
--Admin: admin@lms.com | password 
--Student: student@lms.com | password 
-
-🤝 Connect with Me
-LinkedIn | GitHub
-
+🚧 Suggested next steps
+- [ ] Add the application source (src/) and any required public assets.
+- [ ] Document which features work end-to-end versus which are UI demonstrations.
+- [ ] Add screenshots of student and admin views, if available.
+- [ ] Add application setup, test instructions, and demo data guidance.
+- [ ] Verify accessibility, responsiveness, authentication behavior, and error handling.
+- [ ] Replace sample statistics with clearly labeled demo data or real verified figures.
+- [ ] Update the deployment URL only when an accessible, working demo is available.
+👤 Author
+Udara Dilshan
+GitHub · LinkedIn
+This repository documents a personal learning and frontend development project. Features and visuals should not be interpreted as evidence of a live educational service.
